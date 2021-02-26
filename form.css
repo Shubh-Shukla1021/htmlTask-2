@@ -1,0 +1,172 @@
+
+#navbar{
+    margin-left: -7px;
+    margin-right: -7px;
+    margin-top: -8px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#logo{
+    margin: 10px 5px;
+}
+
+#logo img{
+    height: 70px;
+    width: 70px;
+    margin: 3px 1px;
+    border-radius: 16px;
+}
+
+#navbar ul{
+    display: flex;
+}
+
+#navbar::before{
+    margin-top: 0px;
+    content: "";
+    position: absolute;
+    background-color:rgb(248, 250, 225);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .4;
+}
+
+
+#navbar ul li{
+    list-style: none;
+    font-size: 35px;
+
+}
+
+#navbar ul li a{
+    font-family:'RocknRoll One', sans-serif ;
+    display: block;
+    padding: 3px 30px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: rgb(35, 34, 43);
+}
+
+#navbar ul li a:hover{
+    color: rgb(18, 20, 2);
+    background-color: rgb(235, 235, 245);
+}
+
+#home{
+    display: flex;
+    height: 600px;
+    width: auto;
+}
+
+#home::before{
+    content: "";
+    position: absolute;
+    background: url("mount.jpg") no-repeat center center/cover;
+    height: 80%;
+    width: 99%;
+    z-index: -1;
+}
+
+
+
+#home .box-1{
+    display:relative;
+    text-align: center;
+    color: rgb(230, 234, 245);
+    height: 600px;
+    width: 100%;
+    padding-left: 25px ;
+    font-size: 20px;
+    font-family:'RocknRoll One', sans-serif ;
+
+    
+}
+
+#Services{
+    display: flex;
+    height: 400px;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+
+}
+#Services .ser{
+    margin-left: 10px;
+    height: 387px;
+    width: 370px;
+    text-align: center;
+    font-size: 20px;
+    color:rgb(19, 19, 26) ;
+}
+
+.ser img{
+    height: 330px;
+    width: 370px;
+}
+#form{
+    margin-right: -1px;
+    margin-top: 0px;
+    width: auto;
+    height: 410px;
+    background-color: rgb(54, 82, 83);
+    
+}
+/*
+#form::before{
+    content: "";
+    position: absolute;
+    background: url("dark1.jpg") no-repeat center center/cover;
+    height: 45%;
+    width: 99%;
+    z-index: -1;
+}
+*/
+.UF{
+    margin-top: 0px;
+    color:  rgb(18, 20, 2);
+    text-align: center;
+    font-family: 'RocknRoll One', sans-serif;
+    font-size: 40px;
+}
+.center{
+    height: 94px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(53, 53, 61);
+    font-size: 35px;
+    color: rgb(19, 19, 26);
+}
+
+.entry{
+    color: rgb(230, 234, 245);
+    text-align: center;
+    font-size: 35px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.entry-1{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: rgb(230, 234, 245);
+}
+
+input{
+    border-radius: 5px;
+}
+
+.entry-2{
+    color: rgb(230, 234, 245);
+    text-align: center;
+    font-size: 35px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+
+
+
